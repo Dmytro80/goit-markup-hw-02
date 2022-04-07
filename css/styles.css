@@ -76,6 +76,10 @@ body {
 .header-link:focus {
   color: var(--accent-link-color);
 }
+.header-link.current {
+  color: var(--accent-link-color);
+}
+
 .header-mail {
   font-weight: var(--navigation-font-weight);
   font-size: var(--navigation-font-size);
@@ -122,9 +126,9 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--second-text-color);
+  color: var(--second-title-color);
   cursor: pointer;
-  background-color: #2196f3;
+  background-color: var(--accent-link-color);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -134,7 +138,7 @@ body {
 
 /* -------------------BENEFITS------------------- */
 .benefits {
-  background-color: #ffffff;
+  background-color: #e5e5e5;
 }
 .benefits-title {
   font-size: 14px;
@@ -145,7 +149,7 @@ body {
 
 /* -------------------ABOUT------------------- */
 .about {
-  background-color: #ffffff;
+  background-color: #e5e5e5;
 }
 
 /* -------------------TEAM------------------- */
