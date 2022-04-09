@@ -21,7 +21,6 @@
 body {
   font-family: Roboto, 'Open Sans', sans-serif;
   font-size: var(--main-text-font-size);
-  line-height: var(--main-text-line-height);
   letter-spacing: var(--main-text-letter-spacing);
   color: var(--main-text-color);
   background-color: var(--primary-background-color);
@@ -148,9 +147,13 @@ body {
 /* -------------------FEATURES------------------- */
 
 .features-title {
+  font-size: inherit;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--main-title-color);
+}
+.features-text {
+  line-height: var(--main-text-line-height);
 }
 
 /* -------------------TEAM------------------- */
@@ -177,10 +180,12 @@ body {
   color: #ffffff;
 }
 .footer-text {
+  line-height: var(--main-text-line-height);
   color: var(--secondary-text-color);
 }
 .footer-mail,
 .footer-tel {
+  line-height: var(--main-text-line-height);
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-mail:hover,
@@ -226,4 +231,5 @@ body {
 .work-text {
   font-size: var(--secondary-font-size);
   line-height: 1.88;
+  color: var(--main-text-color);
 }
